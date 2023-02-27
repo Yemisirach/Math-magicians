@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Hello React Front End APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- JavaScript
+- React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Open [dev branch](https://github.com/Yemisirach)
+2. Open VSCode or terminal and navigate to the folder where you would like to clone the project.
+3. Type "pwd" to see your working directory.
+4. [clone repository](https://github.com/Tadesse-Alemayehu/Hello-react-front-end)
 
-### `npm test`
+```bash
+$ git clone https://github.com/Tadesse-Alemayehu/Hello-react-front-end
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Run
 
-### `npm run build`
+```bash
+  $ npm install # to install required packages
+  $ npm run start # to start the website on a local server
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. Enjoy 😎
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Author 👱‍♂️
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+👤 **Tadesse Alemayehu**
 
-### `npm run eject`
+- GitHub: [@yemisrach](https://github.com/Yemisirach)
+- Twitter: [@Yemisirach](https://twitter.com/tamiratyemsrach)
+- LinkedIn: [@Yemisirach](https://www.linkedin.com/in/yemisirach)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔭 Future Features <a name="future-features"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [ ] **[CSS styling]**
+- [ ] **[React Multi Pages]**
+- [ ] **[Server Storage]**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Show your support
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Give a ⭐️ if you like this project!
 
-## Learn More
+## Submit an issue
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Issue page](https://github.com/yemisirach)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
 
-### Code Splitting
+- Microverse for amusing learning resources.
+- Microverse code reviewers.
+- You! 😄 yes you... for visiting.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📝 License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+LICENCED UNDER [MIT License](LICENSE)
