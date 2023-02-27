@@ -57,13 +57,13 @@ $ git clone git@github.com:Yemisirach/Math-magicians-setup.gitd
 - [ ] **[React Multi Pages]**
 - [ ] **[Server Storage]**
 
-## Show your support
+## Contributing
 
 Give a ⭐️ if you like this project!
 
 ## Submit an issue
 
-[Issue page](https://github.com/yemisirach)
+[Issue page](https://github.com/Yemisirach/Math-magicians-setup/issues)
 
 ## Acknowledgments
 
@@ -71,6 +71,6 @@ Give a ⭐️ if you like this project!
 - Microverse code reviewers.
 - You! 😄 yes you... for visiting.
 
-## 📝 License
+## 📝 License <a name="license"></a>
 
-LICENCED UNDER [MIT License](LICENSE)
+This project is [MIT](https://github.com/Yemisirach/Math-magicians-setup/blob/add-license-1/License) licensed.
