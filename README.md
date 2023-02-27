@@ -73,4 +73,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Yemisirach/Math-magicians-setup/blob/add-license-1/License) licensed.
+This project is [MIT]() licensed.
