@@ -38,6 +38,7 @@ $ git clone git@github.com:Yemisirach/Math-magicians-setup.gitd
 
 ```bash
   $ npm install # to install required packages
+  $ npm creat-react-app # to to creat react app
   $ npm run start # to start the website on a local server
 ```
 
