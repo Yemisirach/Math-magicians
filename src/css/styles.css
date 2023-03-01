@@ -1,0 +1,72 @@
+.mainCalculator {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin: auto;
+  border: 1px rgb(201, 193, 190) solid;
+  border-radius: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.Calc_btns {
+  display: flex;
+  justify-content: center;
+}
+
+.calculatorOutput {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+input {
+  height: 3rem;
+}
+
+.calculatorOutput input {
+  width: 20rem;
+  color: bisque;
+  background-color: rgb(95, 95, 95);
+  display: flex;
+  justify-content: end;
+}
+
+.button-col {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button-col input {
+  width: 5rem;
+}
+
+.last-col input {
+  background-color: rgb(210, 146, 51);
+}
+
+.button-row {
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.button-row input {
+  width: 10rem;
+}
+
+.pointrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.pointrow input {
+  width: 5rem;
+}
