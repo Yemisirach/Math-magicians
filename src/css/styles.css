@@ -24,16 +24,25 @@
   width: 100%;
 }
 
-input {
+button {
   height: 3rem;
 }
 
-.calculatorOutput input {
+.CalcInput {
+  height: 3rem;
   width: 20rem;
   color: bisque;
   background-color: rgb(95, 95, 95);
+  padding: 0.6rem;
   display: flex;
   justify-content: end;
+  align-items: center;
+}
+
+.zero {
+  grid-area: zero;
+  grid-row: 5;
+  color: red;
 }
 
 .button-col {
@@ -43,11 +52,11 @@ input {
   flex-direction: column;
 }
 
-.button-col input {
+.button-col button {
   width: 5rem;
 }
 
-.last-col input {
+.last-col button {
   background-color: rgb(210, 146, 51);
 }
 
@@ -58,7 +67,7 @@ input {
   flex-direction: row;
 }
 
-.button-row input {
+.button-row button {
   width: 10rem;
 }
 
@@ -67,6 +76,6 @@ input {
   flex-direction: row;
 }
 
-.pointrow input {
+.pointrow button {
   width: 5rem;
 }
