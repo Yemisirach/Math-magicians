@@ -1,6 +1,6 @@
 import './App.css';
 /* eslint-disable-next-line */
-import Calculator from "./Components/Calculator";
+import Calculator from "./Components/calculator";
 
 function App() {
   return (
