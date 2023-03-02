@@ -1,45 +1,59 @@
-import React from 'react';
-import Button from './Button';
+import React, { useState } from 'react';
+import Button from '../logic/Button';
+import calculate from '../logic/Calculate';
 
 function Calculator() {
+  const [state, setState] = useState({ total: 0, next: null, operation: null });
+
+  const { total, next, operation } = state;
+
+  const clickHandler = (event) => {
+    const eventData = event.target.textContent;
+    const newState = calculate(state, eventData);
+    setState(newState);
+  };
   return (
     <div>
       <div className="mainCalculator">
         <div className="calculatorOutput">
-          <Button value="0" />
+          <div className="CalcInput">
+            {total}
+            {operation}
+            {next}
+          </div>
         </div>
         <div className="Calc_btns">
           <div className="button-col">
-            <Button value="AC" />
-            <Button value="7" />
-            <Button value="4" />
-            <Button value="1" />
+            <Button value="AC" clickCallback={clickHandler} />
+            <Button value="7" clickCallback={clickHandler} />
+            <Button value="4" clickCallback={clickHandler} />
+            <Button value="1" clickCallback={clickHandler} />
           </div>
           <div className="button-col">
-            <Button value="+/-" />
-            <Button value="8" />
-            <Button value="5" />
-            <Button value="2" />
+            <Button value="+/-" clickCallback={clickHandler} />
+            <Button value="8" clickCallback={clickHandler} />
+            <Button value="5" clickCallback={clickHandler} />
+            <Button value="2" clickCallback={clickHandler} />
           </div>
           <div className="button-col">
-            <Button value="%" />
-            <Button value="9" />
-            <Button value="6" />
-            <Button value="3" />
+            <Button value="%" clickCallback={clickHandler} />
+            <Button value="9" clickCallback={clickHandler} />
+            <Button value="6" clickCallback={clickHandler} />
+            <Button value="3" clickCallback={clickHandler} />
           </div>
           <div className="button-col last-col">
-            <Button value="/" />
-            <Button value="*" />
-            <Button value="-" />
-            <Button value="+" />
+            <Button value="÷" clickCallback={clickHandler} />
+            <Button value="x" clickCallback={clickHandler} />
+            <Button value="-" clickCallback={clickHandler} />
+            <Button value="+" clickCallback={clickHandler} />
           </div>
         </div>
         <div className="button-row">
-          <Button value="0" />
+          <Button value="0" clickCallback={clickHandler} />
           <div className="pointrow">
-            <Button value="." />
+            <Button value="." clickCallback={clickHandler} />
             <div className="last-col">
-              <Button value="=" />
+              <Button value="=" clickCallback={clickHandler} />
             </div>
           </div>
         </div>
