@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './css/styles.css';
+import Calculator from './Components/Calculator';
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import Quote from './Components/Quote';
+import Footer from './Components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <div id="main-container">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Calculator" element={<Calculator />} />
+          <Route path="/Quote" element={<Quote />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   </React.StrictMode>,
 );
 
