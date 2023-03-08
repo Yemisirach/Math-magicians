@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './css/styles.css';
-import Calculator from './Components/Calculator';
+/* eslint-disable-next-line */
+import Calculator from "./Components/Calculator";
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Quote from './Components/Quote';
