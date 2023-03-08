@@ -2,12 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './css/styles.css';
-/* eslint-disable-next-line */
-import Calculator from "./Components/Calculator"; /* eslint-disable-next-line */
-import Navbar from "./Components/Navbar"; /* eslint-disable-next-line */
-import Home from "./Components/Home"; /* eslint-disable-next-line */
-import Quote from "./Components/Quote"; /* eslint-disable-next-line */
-import Footer from "./Components/Footer";
+import Calculator from './Components/Calculator';
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import Quote from './Components/Quote';
+import Footer from './Components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
