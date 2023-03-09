@@ -22,7 +22,8 @@
 
 - JavaScript
 - React
-
+## live Deom
+- [🚀 Live Demo](https://mathmagician-jpgh.onrender.com)
 ## Getting Started
 
 1. Open [dev branch](https://github.com/Yemisirach)
