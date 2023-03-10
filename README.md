@@ -1,3 +1,7 @@
+##Math-Magicians
+
+![cal](https://user-images.githubusercontent.com/104437323/224037186-3456e2b7-0151-441c-9137-782db0ce9e3f.png)
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -22,7 +26,8 @@
 
 - JavaScript
 - React
-
+## live Deom
+- [🚀 Live Demo](https://mathmagician-jpgh.onrender.com)
 ## Getting Started
 
 1. Open [dev branch](https://github.com/Yemisirach)
