@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component should render correctly and match the saved snapshot 1`] = `
+ <div>
+      <div id="HomeContainer">
+        <h3 className="quote-text">
+          Mathematics is not about numbers, equation, computations
+          <br />
+          or algorithms. It is about understandin. - William paul Thurston
+        </h3>
+      </div>
+    </div>
+`;

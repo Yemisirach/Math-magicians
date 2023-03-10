@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component should render correctly and match the saved snapshot 1`] = `
+<div
+  id="footer"
+>
+  <div>
+    <h2>
+      Math Magician project
+    </h2>
+    <h3>
+      By:- Yemisirach Tamirat.
+    </h3>
+  </div>
+  <div>
+    © 2023 All rights reserved. Math Magicians. Privacy Policy | Terms of Use | Contact Us
+  </div>
+</div>
+`;

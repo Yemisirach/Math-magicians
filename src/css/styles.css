@@ -1,6 +1,6 @@
 .mainCalculator {
   display: flex;
-  height: 465px;
+  height: 450px;
   justify-content: center;
   margin: auto;
   border-radius: 10px;
@@ -92,8 +92,9 @@ button {
 
 #footer {
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   color: aliceblue;
   background-color: rgb(237, 175, 59);
@@ -108,7 +109,7 @@ button {
 
 #HomeContainer {
   width: 95%;
-  height: 490px;
+  height: 480px;
   margin: auto;
 }
 
