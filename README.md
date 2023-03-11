@@ -47,9 +47,9 @@ $ git clone git@github.com:Yemisirach/Math-magicians-setup.gitd
   $ npm run start # to start the website on a local server
 ```
 
-6. Enjoy 😎
+6. Enjoy :🧏‍♀️
 
-## Author 👱‍♂️
+## Author :👩
 
 👤 **Yemisirach Tamirat**
 
